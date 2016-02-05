@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(https://fonts.gstatic.com/s/gloriahallelujah/v8/CA1k7SlXcY5kvI81M_R28YGdvEu4SOXaLqFXyFUihk4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+
+}
+body {
+  text-align: center;
+  font-family: verdana, sans-serif;
+  background: #fafafa;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#body {
+  background: #fafafa;
+}
+
+.cross-off {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.items {
+  list-style: none;
+  background-repeat: no-repeat;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+  margin-bottom: -5px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.items:hover {
+  font-size: 19px;
+}
+
+form {
+  font-size: 14px;
+
+}
+
+#input {
+  margin-top: 20px;
+  font-size: 15px;
+  width: 435px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#generate {
+  visibility: hidden;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+#list {
+  margin-top: 0px;
+  background-image: url('images/paper.jpg');
+  background-repeat: repeat-y;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  min-width: 500px;
+  text-align: left;
+}
